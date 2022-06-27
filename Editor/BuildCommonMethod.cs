@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -236,3 +237,4 @@ public static class BuildCommonMethod
         PlayerSettings.Android.targetSdkVersion = info.buildInfoClass.targetSdkVersion;
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -96,3 +97,4 @@ public class BuildEventClass
     public UnityEvent OnBeforeStageBuild;
     public UnityEvent OnAfterStageBuild;
 }
+#endif
